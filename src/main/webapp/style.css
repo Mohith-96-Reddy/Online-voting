@@ -1,0 +1,118 @@
+body{
+	text-align:center;
+	margin:0;
+	background-image:url('https://www.parisschoolofeconomics.eu/IMG/arton8422.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+	color:red;
+}
+.nav-bar{
+	color:black;
+	overflow:hidden;
+	display:flex;
+	justify-content:right;
+	padding: 40px;
+	font-size:30px;
+}
+.nav-a{
+	color:blue;
+	margin-left:30px;
+	margin-right:20px;
+	cursor:pointer;
+}
+.form-container{
+	width:40%;
+	height:20%;
+	display:flex;
+	justify-content:center;
+	background-color:white;
+	border-radius:50px;
+	margin-left:50%;
+	margin-right:50%;
+	margin-top:50px;
+	padding-top:50px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:50px;
+}
+
+.form-container h3{
+	margin-left:0;
+}
+
+.form-elements{
+	font-size:30px;
+	margin-left:0;
+	margin-top:20px;
+	margin-bottom:20px;
+	border:2px;
+	border-radius:30px;
+	height:50px;
+	color:black;
+}
+
+.form-label{
+	margin-left:0;
+}
+
+.form-input{
+	text-align:center;
+	background-color:teal;
+	width:80%;
+}
+
+.form-button{
+	background-color:green;
+	width:80%;
+	cursor:pointer;
+}
+
+.form-container a{
+	color:blue;
+	cursor:pointer;
+	margin-top:35px;
+}
+.index-a{
+	margin-left: 32%;
+}
+
+.admin-a{
+	margin-left: 20%;
+}
+
+.about{
+	font-family: Helvetica;
+	width:100vx;
+	height:80vh;
+	padding-left:20px;
+	opacity:0.8;
+	background-color:#FFF7E9;
+}
+.about p{
+	padding-top:40px;
+	font-weight: bold;
+	justify-content:center
+}
+.about img{
+	width:400px;
+	height:350px;
+	margin-right:10px;
+}
+
+.checkTable{
+	background-color:#FFF7E9;
+	height:87vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.checkTable img{
+	height:100px;
+	width:100px;
+}
+
+.checkTable td,th{
+	padding: 10px 60px;
+}
